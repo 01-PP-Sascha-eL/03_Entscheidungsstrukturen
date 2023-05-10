@@ -72,12 +72,12 @@
 const firstName = "Jane";
 let job;
 
-job = "driver";     // .. fährt TAXI! / UBER
-job = "diver";      // .. taucht im Rhein!
-job = "artist";     // .. malt ein Bild!
-job = "pilot";      // .. macht etwas anderes! --> default
-job = "teacher";    // .. unterrichtet!
-
+// job = "driver";     // .. fährt TAXI! / UBER
+// job = "diver";      // .. taucht im Rhein!
+// job = "artist";     // .. malt ein Bild!
+// job = "pilot";      // .. macht etwas anderes! --> default
+// job = "teacher";    // .. unterrichtet!
+// job = "instructor"; // .. unterrichtet!
 
 switch (job) 
 {
@@ -90,13 +90,10 @@ switch (job)
     case "artist": // ( == )
         console.log (firstName + " malt ein Bild!");
         break;
-    case "pilot": // ( == )
-        console.log (firstName + " fliegt ein Flugzeig!");
-        break;
     case "teacher": // ( == )
+    case "instructor": // ( == )
         console.log (firstName + " unterrichtet!");
         break; 
-
     default:
         console.log(firstName + " macht etwas anderes!");
         break;
